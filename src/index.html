@@ -7,22 +7,60 @@
     <title>EBAC Tech Talks</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
     <header class="hero">
         <div class="container">
-            <img class="hero__logo" src="./images/ebac_logo.svg" alt="EBAC">
+            <img class="hero__logo" src="./images/Happy-birthday-background-design-Graphics-24890381-1-1-580x387.jpg"
+                alt="EBAC">
             <p class="hero__text">
-                O maior evento de tecnologia do Brasil começa em 10d 12h 20m 15s
+                Meu aniversário! Faltam <span id="contador"></span>
             </p>
+            <div class="infos-bar">
+                <ul>
+                    <li class="infos-bar__infos__item">
+                        <b>Local do aniversário</b>
+                        Carverna do dragão - Monte Fuji - Japão
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Entrada</b>
+                        Apartir de 70 reais
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Data da festa</b>
+                        17/12/2024 às 19 horas
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Confirme sua presença
+                </a>
+            </div>
         </div>
     </header>
-
-
-    <script src="scripts/main.js"></script>
+    <section class="event event--frontend">
+        <section class="event event--frontend">
+            <div class="container ">
+                <div class="event-details">
+                    <h2 class="event__details__title">Espaço onde vai ser a festa</h2>
+                    <p class="event__details__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, cumque reprehenderit totam
+                        dolor
+                        expedita suscipit eaque at accusantium excepturi pariatur nemo enim deleniti placeat molestias,
+                        id
+                        veritatis sint quod maiores?
+                    </p>
+                </div>
+                <img class="event__image" src="./images/local japão.jpg" alt="Foto do local da festa">
+            </div>
+        </section>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="scripts/main.js"></script>
 </body>
 
 </html>
